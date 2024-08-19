@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="home"> <img src="./animals-removebg-preview.png" alt="" width="400px">
+        <div class="text" >TIGER
+        </div>
+        <div class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quasi eveniet harum similique, maxime eaque qui voluptates aut? Et, molestiae?
+        </div>
+   
+    </div>
+   
+</body>
+</html>
+<style>
+    .home{
+        background-color:black;
+        display: flex;
+        justify-content: center;
+        height:  100vh; 
+        align-items: center;
+        
+        
+        
+    }
+    .text{
+        color: white;
+        position: relative;
+        font-size:80px;
+        bottom: 250px;
+        right: 50px;
+        animation-name:TIGER ;
+        animation-duration: 5s;
+        animation-timing-function:ease-in ;
+        animation-iteration-count: infinite;
+    }
+    
+   
+     .para{
+            color:white;
+            position: relative;
+            right:300px;
+            font-size:20px;
+           
+            animation-name:para;
+            animation-duration:5s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count: infinite;
+    }
+    
+    @keyframes TIGER{
+        form{
+            bottom: 0;
+        }
+        to{
+            bottom:100px ;
+            
+        }
+    }
+    @keyframes para {
+        
+        from{
+            right: 0px;
+        }
+        to{
+            right: 270px;
+        }
+    }
+     
+  
+</style>
